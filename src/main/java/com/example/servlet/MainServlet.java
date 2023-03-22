@@ -24,14 +24,15 @@ public class MainServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        Currency curr1 = new Currency("USD", "38.9");
-        Currency curr2 = new Currency("EUR", "40.1");
-        Currency[] currencies = List.of(curr1, curr2).toArray(new Currency[] {});
-
-        request.setAttribute("today", Timestamp.valueOf(LocalDateTime.now()));
-        request.setAttribute("currencies", currencies);
+//        Currency curr1 = new Currency("USD", "38.9");
+//        Currency curr2 = new Currency("EUR", "40.1");
+//        Currency[] currencies = List.of(curr1, curr2).toArray(new Currency[] {});
+//
+//        request.setAttribute("today", Timestamp.valueOf(LocalDateTime.now()));
+//        request.setAttribute("currencies", currencies);
 
         RequestDispatcher rd = getServletContext().getRequestDispatcher("/curr.jsp");
+
         rd.forward(request, response);
     }
 

@@ -1,3 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.5">
+<file name="C:\Users\alexzhyshko\practice_workspace\JEE_Lab3\src\main\java\com\example\dao\impl\DefaultCurrencyDao.java">
+</file>
+<file name="C:\Users\alexzhyshko\practice_workspace\JEE_Lab3\src\main\java\com\example\dto\ExchangeDate.java">
+<error line="16" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="C:\Users\alexzhyshko\practice_workspace\JEE_Lab3\src\main\java\com\example\dto\ExchangeRate.java">
+<error line="15" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="C:\Users\alexzhyshko\practice_workspace\JEE_Lab3\src\main\java\com\example\servlet\MainServlet.java">
+<error line="4" column="8" severity="error" message="Unused import - java.sql.Timestamp." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="5" column="8" severity="error" message="Unused import - java.time.LocalDateTime." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="6" column="8" severity="error" message="Unused import - java.util.List." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="14" column="8" severity="error" message="Unused import - com.example.dto.Currency." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+</file>
 </checkstyle>
