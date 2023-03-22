@@ -13,5 +13,4 @@ public class ExchangeDate {
     private UUID id;
     private ExchangeRate rate;
     private LocalDate date;
-    
 }

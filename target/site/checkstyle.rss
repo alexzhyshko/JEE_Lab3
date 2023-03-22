@@ -46,7 +46,7 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="https://github.com/wildfly/wildfly-quickstart-parent/JEE_Lab3/checkstyle.html#com.example.dto.Currency.java">com/example/dto/Currency.java</a>
+                  <a href="https://github.com/wildfly/wildfly-quickstart-parent/JEE_Lab3/checkstyle.html#com.example.servlet.CurrencyExchangeServlet.java">com/example/servlet/CurrencyExchangeServlet.java</a>
                 </td>
                 <td>
                   0

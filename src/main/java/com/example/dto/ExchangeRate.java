@@ -12,5 +12,4 @@ public class ExchangeRate {
     private UUID id;
     private float rate;
     private Currency currency;
-    
 }
