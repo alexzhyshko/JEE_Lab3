@@ -9,18 +9,39 @@
 		<servlet-class>com.example.servlet.MainServlet</servlet-class>
 	</servlet>
 	<servlet>
-		<servlet-name>LoginServlet</servlet-name>
-		<servlet-class>com.example.servlet.LoginServlet</servlet-class>
+		<servlet-name>AdminLoginServlet</servlet-name>
+		<servlet-class>com.example.servlet.AdminLoginServlet</servlet-class>
 	</servlet>
-	<servlet-mapping>
-		<servlet-name>LoginServlet</servlet-name>
-		<url-pattern>/login</url-pattern>
-	</servlet-mapping>
+	<servlet>
+		<servlet-name>AdminConsoleServlet</servlet-name>
+		<servlet-class>com.example.servlet.AdminConsoleServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AdminCurrencyManagementServlet</servlet-name>
+		<servlet-class>com.example.servlet.AdminCurrencyManagementServlet</servlet-class>
+	</servlet>
+	<servlet>
+        <servlet-name>AdminRateManagementServlet</servlet-name>
+        <servlet-class>com.example.servlet.AdminRateManagementServlet</servlet-class>
+    </servlet>
 	<servlet-mapping>
 		<servlet-name>MainServlet</servlet-name>
 		<url-pattern>/home</url-pattern>
 	</servlet-mapping>
-	<welcome-file-list>
-		<welcome-file>login.jsp</welcome-file>
-	</welcome-file-list>
+	<servlet-mapping>
+		<servlet-name>AdminLoginServlet</servlet-name>
+		<url-pattern>/admin</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AdminConsoleServlet</servlet-name>
+		<url-pattern>/admin/management</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AdminCurrencyManagementServlet</servlet-name>
+		<url-pattern>/admin/management/currency</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+        <servlet-name>AdminRateManagementServlet</servlet-name>
+        <url-pattern>/admin/management/rate</url-pattern>
+    </servlet-mapping>
 </web-app>

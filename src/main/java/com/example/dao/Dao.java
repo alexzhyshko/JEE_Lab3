@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 public abstract class Dao<K, T> {
 
-    private Map<K, T> items = new HashMap<>();
+    protected Map<K, T> items = new HashMap<>();
 
     public List<T> findAll() {
         return items.values().stream().collect(Collectors.toList());

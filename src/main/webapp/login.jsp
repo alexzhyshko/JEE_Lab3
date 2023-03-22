@@ -7,11 +7,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Login</title>
+<title>AMC</title>
 </head>
 <body>
-	<h1>Login</h1>
-	<c:set var="loginUrl" scope="page" value="/JEE_Lab3/login" />
+	<h1>Login to Admin Management Console</h1>
+	<c:set var="loginUrl" scope="page" value="/JEE_Lab3/admin" />
 	<form method="post" action="${loginUrl}">
 		<label for="username">Username:</label>
 		<input type="text" id="username" name="username"><br>
