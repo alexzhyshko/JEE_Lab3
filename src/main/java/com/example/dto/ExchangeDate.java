@@ -1,7 +1,6 @@
 package com.example.dto;
 
 import java.time.LocalDate;
-import java.util.List;
 import java.util.UUID;
 
 import lombok.Builder;
@@ -14,5 +13,4 @@ public class ExchangeDate {
     private UUID id;
     private List<ExchangeRate> rates;
     private LocalDate date;
-
 }

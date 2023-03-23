@@ -7,6 +7,7 @@ import lombok.Data;
 
 @Data
 @Builder
+@AllArgsConstructor
 public class Currency {
 
     private UUID id;

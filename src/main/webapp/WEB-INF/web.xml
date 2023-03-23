@@ -5,8 +5,12 @@
 	version="4.0">
 	<display-name>JEE_Lab3</display-name>
 	<servlet>
-		<servlet-name>MainServlet</servlet-name>
-		<servlet-class>com.example.servlet.MainServlet</servlet-class>
+		<servlet-name>CurrencyExchangeServlet</servlet-name>
+		<servlet-class>com.example.servlet.ExchangeRateOfCurrenciesServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ExchangeRateOfCurrenciesForPeriodServlet</servlet-name>
+		<servlet-class>com.example.servlet.ExchangeRateOfCurrenciesForPeriodServlet</servlet-class>
 	</servlet>
 	<servlet>
 		<servlet-name>AdminLoginServlet</servlet-name>
@@ -25,10 +29,6 @@
         <servlet-class>com.example.servlet.AdminRateManagementServlet</servlet-class>
     </servlet>
 	<servlet-mapping>
-		<servlet-name>MainServlet</servlet-name>
-		<url-pattern>/home</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
 		<servlet-name>AdminLoginServlet</servlet-name>
 		<url-pattern>/admin</url-pattern>
 	</servlet-mapping>
@@ -41,7 +41,15 @@
 		<url-pattern>/admin/management/currency</url-pattern>
 	</servlet-mapping>
 	<servlet-mapping>
-        <servlet-name>AdminRateManagementServlet</servlet-name>
-        <url-pattern>/admin/management/rate</url-pattern>
-    </servlet-mapping>
+		<servlet-name>AdminRateManagementServlet</servlet-name>
+		<url-pattern>/admin/management/rate</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CurrencyExchangeServlet</servlet-name>
+		<url-pattern>/home</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ExchangeRateOfCurrenciesForPeriodServlet</servlet-name>
+		<url-pattern>/home/currencies_for_period</url-pattern>
+	</servlet-mapping>
 </web-app>
